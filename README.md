@@ -47,8 +47,4 @@ Command-line checks with the Android SDK installed:
 
 ## Limitations
 
-This is a learning/prototype project, not a feature-complete media library. There are no playlists, album-art metadata, automatic sorting or audio-focus/call handling yet. Test background media behavior on actual devices before a production release. APK functionality has not been verified by an Android build in this offline review.
-
-## Licensing
-
-No open-source license has been specified. Please choose a license before inviting external reuse.
+This is a learning/prototype project, not a feature-complete media library. There are no playlists, album-art metadata, automatic sorting or audio-focus/call handling yet. Test background media behavior on actual devices before a production release.
