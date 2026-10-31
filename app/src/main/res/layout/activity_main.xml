@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="music"
+            android:textSize="22sp"
+            android:textColor="@color/pink_primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:letterSpacing="0.1" />
+
+        <!-- TextView de estado con fondo redondeado (punto 5) -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/status_bg"
+            android:textColor="@color/pink_light"
+            android:textSize="13sp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#1E1E1E"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:radius="20dp">
+
+            <TextView
+                android:id="@+id/currentSongText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="@color/pink_primary"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnPrevious"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="&lt;"
+                    android:textSize="40sp"
+                    android:textColor="@color/white_text"
+                    android:background="@drawable/control_button_bg"
+                    android:layout_margin="8dp"
+                    android:gravity="center" />
+
+                <ImageButton
+                    android:id="@+id/btnPlayPause"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/ic_play"
+                    android:background="@drawable/control_button_bg"
+                    android:layout_margin="8dp"
+                    android:scaleType="center" />
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="&gt;"
+                    android:textSize="40sp"
+                    android:textColor="@color/white_text"
+                    android:background="@drawable/control_button_bg"
+                    android:layout_margin="8dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/seekbar_thumb" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/fabAdd"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_add"
+        android:background="@drawable/fab_background"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp" />
+
+</FrameLayout>

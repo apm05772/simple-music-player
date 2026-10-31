@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.SimpleMusicPlayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <!-- Color principal -->
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_dark</item>
+        <item name="colorAccent">@color/pink_primary</item>
+        <!-- Fondo general -->
+        <item name="android:windowBackground">@color/black_bg</item>
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor">@color/black_bg</item>
+        <!-- Color de texto por defecto -->
+        <item name="android:textColorPrimary">@color/white_text</item>
+        <item name="android:textColorSecondary">@color/gray_text</item>
+    </style>
+</resources>

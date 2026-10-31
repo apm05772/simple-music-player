@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_primary">#FF69B4</color>      <!-- Rosa fuerte -->
+    <color name="pink_dark">#C2185B</color>         <!-- Rosa oscuro -->
+    <color name="pink_light">#FFB6C1</color>        <!-- Rosa claro -->
+    <color name="black_bg">#121212</color>          <!-- Negro elegante -->
+    <color name="gray_text">#B0B0B0</color>         <!-- Gris para texto secundario -->
+    <color name="white_text">#FFFFFF</color>        <!-- Texto principal -->
+    <color name="divider">#333333</color>           <!-- Líneas divisorias -->
+</resources>
