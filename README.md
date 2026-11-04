@@ -48,3 +48,7 @@ Command-line checks with the Android SDK installed:
 ## Limitations
 
 This is a learning/prototype project, not a feature-complete media library. There are no playlists, album-art metadata, automatic sorting or audio-focus/call handling yet. Test background media behavior on actual devices before a production release.
+
+## AI usage
+
+This is **AI-ASSISTED**, primarily in visual designs and functionality. This was my first real project using Android Studio, so I had to use AI elements to catch errors effectively and not get stuck for long amounts of time (especially when considering the poor state of my current laptop :p). I am not claiming to have done this fully AI-free.
